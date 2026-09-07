@@ -33,7 +33,7 @@ echo Коммитим с сообщением: "%commit_msg%"
 git commit -m "%commit_msg%"
 
 echo Отправляем на GitHub и школьный сервер...
-git push all main
+git push all main --force
 
 echo.
 echo ✅ Готово! Учебник опубликован.
